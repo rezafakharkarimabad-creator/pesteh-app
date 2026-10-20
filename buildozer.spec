@@ -3,10 +3,9 @@ title = Pesteh Calculator
 package.name = pestehapp
 package.domain = ir.fatah
 source.dir = .
-source.include_exts = py,png,jpg,kv,atlas,ttf
+source.include_exts = py,png,jpg,kv,atlas,ttf,spec,yml,yaml
 version = 1.0
-# نسخه‌ها را دقیقاً مطابق محیط تست شده ویندوز تنظیم می‌کنیم
-requirements = python3,kivy==2.3.1,kivymd==1.1.1,pillow,arabic-reshaper,python-bidi
+requirements = python3,kivy==2.3.1,kivymd==1.1.1,pillow
 orientation = portrait
 fullscreen = 0
 android.api = 33
